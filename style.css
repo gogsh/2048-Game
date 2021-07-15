@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 800px;
+}
+
+.ceil {
+  box-sizing:border-box;
+  border: 1px solid rgb(104, 104, 104);  
+  display: flex;
+  width: 200px;
+  height: 200px; 
+}
+
+.text {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin-top: 60px;
+  width: 100%;
+  font-size: 56px;
+  text-align: center;
+}
